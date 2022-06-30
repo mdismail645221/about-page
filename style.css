@@ -1,0 +1,133 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* ====defaul css===== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: #fff;
+}
+.d-flex{
+    display: flex;
+}
+.space{
+    justify-content: space-between;
+}
+.wrap{
+    flex-wrap: nowrap;
+}
+
+/* =========main css=========== */
+
+/* =====Rectangle-area====== */
+.Rectangle-text.text-center h4 {
+    color: #FF452C;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.Rectangle-text.text-center h5 {
+    font-size: 24px;
+    color: #020719;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Rectangle-text.text-center {
+    padding: 60px 0px 60px 0px;
+}
+.Rectangle-img-area p {
+    padding: 20px 0px 0px 0px;
+    color: #686B78 ;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* =====slider-going owl-carousel====== */
+.text-box.text-center h4 {
+    color: #020719;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    padding: 10px 0px 0px 0px;
+}
+
+/* =====our team===== */
+.our-team-slider-area {
+    padding: 50px 0px 80px 0px;
+}
+.our-team-slider-text.text-center {
+    padding-bottom: 30px;  
+}
+.our-team-slider-text.text-center h2 {
+    font-size: 42px; 
+    color: #020719;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =====experience area==== */
+.mask-group-text {
+    margin-left: 15px;
+}
+.experience-text-box {
+    background: #FFEBC6;
+    padding: 15px;
+}
+.experience-text-box h4 span {
+    color: #FFA202;
+}
+.experience-text-box {
+    margin-bottom: 10px;
+}
+/* ====news area==== */
+.News-area {
+    background: #EFEFEF;
+    padding: 60px 0px 60px 0px;
+}
+.News-area .border {
+    margin-top: 60px;
+    border: 2px solid #D9D9D9;
+}
+button.btn {
+    border: 1px solid #1556FF;
+    background: #1556FF;
+    color: #fff;
+    margin-left: 15px;
+    padding: 10px;
+}
+button.btn:hover {
+    color: red;
+}
+.News-area input {
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #5F5855;
+    padding: 10px 10px 10px 0px;
+}
+.col-md-6.news-right {
+    display: flex;
+    justify-content: right;
+    vector-effect: center;
+    align-items: center;
+    align-content: center;
+}
+
+
